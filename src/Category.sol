@@ -7,7 +7,7 @@ import {UUPSUpgradeable} from "@openzeppelin-upgradeable/proxy/utils/UUPSUpgrade
 import {Initializable} from "@openzeppelin-upgradeable/proxy/utils/Initializable.sol";
 import {OwnableUpgradeable} from "@openzeppelin-upgradeable/access/OwnableUpgradeable.sol";
 
-import {IAggregator} from "./interfaces/IAggregator.sol";
+import {IAggregator} from "@knowyourcat/sdk/interfaces/IAggregator.sol";
 
 error EmptySources();
 error TokenDoesNotExist();

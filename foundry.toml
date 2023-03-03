@@ -4,10 +4,14 @@ out = 'out'
 libs = ['lib']
 remappings = [
   "forge-std=lib/forge-std/src/",
-  "@openzeppelin-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts/"
+  "@knowyourcat/sdk=lib/knowyourcat-sdk/src/",
+  "@openzeppelin-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts/",
+  "@openzeppelin=lib/openzeppelin-contracts/contracts/"
 ]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
 
 [rpc_endpoints]
 goerli = "${GOERLI_RPC_URL}"
+sepolia = "${SEPOLIA_RPC_URL}"
+polygon = "${POLYGON_RPC_URL}"
